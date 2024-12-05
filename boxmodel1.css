@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+   margin: auto;
+   margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-color:whitesmoke;
+}
+.leftbox{
+    width: 250px;
+    height: 500px;
+    border: 1px solid black;
+}
+.leftbox img{
+   width: 250px; 
+   height: 500px;
+}
+.detailbox{
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    flex-direction: column;
+    height:165px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.imgboxcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 165px;
+    border: 1px solid black;
+}
+.imgboxcontainer img{
+   width: 120px;
+   height: 165px;
+}
+.contactbox{
+    width:250px;
+    height: 165px;
+}
+.formbox{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top:10px;
+}
+.namebox input{
+    width: 110px;
+    height: 20px;
+    background-color: rgb(202, 189, 189);
+    border: none;
+    border-radius: 5px;
+}
+.mailbox input{
+    width: 110px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: rgb(202, 189, 189);
+    border: none;
+}
+.submitform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+   
+}
+.submitform a{
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: rgb(196, 196, 19);
+    border-radius: 15px;
+    width: 223px;
+    height: 20px;
+    padding: 5px;
+}
+
